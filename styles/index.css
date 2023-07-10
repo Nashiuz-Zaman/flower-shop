@@ -21,6 +21,10 @@ img {
   margin: 0 auto;
 }
 
+.primary-color-text {
+  color: #e55473;
+}
+
 .btn-primary {
   border: none;
   background: none;
@@ -39,11 +43,20 @@ img {
   line-height: 25px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .section-title {
   color: #272727;
   text-align: center;
-  font-size: 35px;
+  font-size: 34px;
   margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.section-margin {
+  margin-bottom: 120px;
 }
 
 /* header styles */
@@ -75,10 +88,9 @@ img {
   width: 530px;
 }
 
-/* featured items section styles */
+/* featured section styles */
 
-.featured-flowers-description {
-  text-align: center;
+.featured-items-description {
   margin-bottom: 40px;
 }
 
@@ -111,7 +123,7 @@ img {
 }
 
 .featured-item-2 img {
-  height: 300px;
+  height: 310px;
   margin-bottom: 50px;
 }
 
@@ -129,4 +141,35 @@ img {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
+}
+
+/* hot deals section styles */
+
+.hot-deals {
+  background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deals-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  gap: 175px;
+}
+
+.hot-deals-text {
+  padding-top: 60px;
+}
+
+.hot-deals-description {
+  margin-bottom: 20px;
+}
+
+.hot-deals-img {
+  height: 360px;
+}
+
+.hot-deals button {
+  display: block;
+  margin: 0 auto;
 }
