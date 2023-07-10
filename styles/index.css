@@ -189,3 +189,63 @@ img {
 .instagram-images-container img {
   height: 345px;
 }
+
+/* latest deals styles */
+
+.latest-deals {
+  background-image: url("../assets/latest-deals.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  border-radius: 8px;
+}
+
+.latest-deals-description {
+  margin-bottom: 40px;
+}
+
+.latest-deals-form {
+  display: flex;
+  align-items: stretch;
+  width: 725px;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.latest-deals-form input {
+  font-family: inherit;
+}
+
+.latest-deals-form input[type="email"] {
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+}
+
+.latest-deals-form input[type="submit"] {
+  padding: 15px 30px;
+}
+
+/* footer styles */
+
+.footer {
+  background-color: #111010;
+  padding: 120px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+}
+
+.footer-disclaimer {
+  display: block;
+  color: rgba(255, 255, 255, 0.4);
+}
