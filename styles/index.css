@@ -39,6 +39,13 @@ img {
   line-height: 25px;
 }
 
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
 /* header styles */
 
 .header {
@@ -66,4 +73,60 @@ img {
 
 .banner-img {
   width: 530px;
+}
+
+/* featured items section styles */
+
+.featured-flowers-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.featured-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured-item-img-container {
+  width: 400px;
+  height: 460px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 1000px 1000px 0px 0px;
+  margin-bottom: 30px;
+}
+
+.featured-item-1 .featured-item-img-container {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-item-1 img {
+  height: 365px;
+}
+
+.featured-item-2 .featured-item-img-container {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-item-2 img {
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.featured-item-3 .featured-item-img-container {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-item-3 img {
+  height: 400px;
+}
+
+.featured-item-link {
+  color: #272727;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
 }
