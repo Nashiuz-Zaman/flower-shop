@@ -35,6 +35,7 @@ img {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
+  cursor: pointer;
 }
 
 .text-description {
@@ -172,4 +173,19 @@ img {
 .hot-deals button {
   display: block;
   margin: 0 auto;
+}
+
+/* instagram section styles */
+
+.instagram-description {
+  margin-bottom: 40px;
+}
+
+.instagram-images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instagram-images-container img {
+  height: 345px;
 }
