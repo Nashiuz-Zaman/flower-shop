@@ -145,6 +145,29 @@ img {
   text-decoration: underline;
 }
 
+/* services section styles */
+
+.services {
+  padding: 86px 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service-img {
+  margin-bottom: 24px;
+}
+
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
 /* hot deals section styles */
 
 .hot-deals {
