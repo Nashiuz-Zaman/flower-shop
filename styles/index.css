@@ -14,7 +14,7 @@ img {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1440px;
 }
 
 .align-center {
@@ -29,10 +29,10 @@ img {
   border: none;
   background: none;
   background-color: #e55473;
-  padding: 17px 35px;
+  padding: 20px 43px;
   border-radius: 8px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   cursor: pointer;
@@ -40,8 +40,8 @@ img {
 
 .text-description {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .text-center {
@@ -51,20 +51,20 @@ img {
 .section-title {
   color: #272727;
   text-align: center;
-  font-size: 34px;
-  margin-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 24px;
   font-weight: 800;
 }
 
 .section-margin {
-  margin-bottom: 120px;
+  margin-bottom: 128px;
 }
 
 /* header styles */
 
 .header {
   background-color: rgba(229, 84, 115, 0.1);
-  margin-bottom: 150px;
+  margin-bottom: 178px;
 }
 
 .banner {
@@ -76,23 +76,23 @@ img {
 
 .banner-title {
   color: #272727;
-  font-size: 70px;
-  margin-bottom: 25px;
+  font-size: 80px;
+  margin-bottom: 32px;
   font-weight: 800;
 }
 
 .banner-description {
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 
 .banner-img {
-  width: 530px;
+  height: 800px;
 }
 
 /* featured section styles */
 
 .featured-items-description {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .featured-items-container {
@@ -102,8 +102,8 @@ img {
 }
 
 .featured-item-img-container {
-  width: 400px;
-  height: 460px;
+  width: 464px;
+  height: 538px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -116,7 +116,7 @@ img {
 }
 
 .featured-item-1 img {
-  height: 365px;
+  width: 310px;
 }
 
 .featured-item-2 .featured-item-img-container {
@@ -124,7 +124,7 @@ img {
 }
 
 .featured-item-2 img {
-  height: 310px;
+  height: 370px;
   margin-bottom: 50px;
 }
 
@@ -133,15 +133,16 @@ img {
 }
 
 .featured-item-3 img {
-  height: 400px;
+  width: 314px;
 }
 
-.featured-item-link {
+.featured-item-name {
   color: #272727;
-  display: block;
   text-align: center;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 35px;
+  text-decoration: underline;
 }
 
 /* hot deals section styles */
@@ -154,8 +155,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px 0;
-  gap: 175px;
+  padding: 100px 0;
+  gap: 200px;
 }
 
 .hot-deals-text {
@@ -167,7 +168,7 @@ img {
 }
 
 .hot-deals-img {
-  height: 360px;
+  height: 420px;
 }
 
 .hot-deals button {
@@ -187,27 +188,63 @@ img {
 }
 
 .instagram-images-container img {
-  height: 345px;
+  height: 396px;
+}
+
+/* blessings styles */
+
+.blessings {
+  background-color: rgb(238, 238, 238);
+  padding: 100px 0;
+}
+
+.blessings-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blessings-title {
+  font-size: 60px;
+  color: #272727;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.blessings-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.blessings-img {
+  height: 425px;
+  box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.25);
 }
 
 /* latest deals styles */
 
 .latest-deals {
-  background-image: url("../assets/latest-deals.png");
+  background-image: url("./../assets/latest-deals.png");
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 122px 0;
   border-radius: 8px;
 }
 
+.latest-deals-title {
+  margin-bottom: 16px;
+}
+
 .latest-deals-description {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .latest-deals-form {
   display: flex;
   align-items: stretch;
-  width: 725px;
+  width: fit-content;
   margin: 0 auto;
   gap: 15px;
 }
@@ -219,33 +256,35 @@ img {
 .latest-deals-form input[type="email"] {
   border: none;
   border-radius: 8px;
-  padding: 20px;
-  width: 100%;
+  padding: 23px;
+  width: 650px;
+  font-size: 16px;
 }
 
 .latest-deals-form input[type="submit"] {
-  padding: 15px 30px;
+  padding: 18px 30px;
 }
 
 /* footer styles */
 
 .footer {
   background-color: #111010;
-  padding: 120px 0;
+  padding: 128px 0;
 }
 
 .footer-title {
   color: #fff;
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 48px;
+  margin-bottom: 24px;
 }
 
 .footer-description {
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .footer-disclaimer {
   display: block;
   color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
 }
