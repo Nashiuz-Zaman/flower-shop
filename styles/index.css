@@ -234,6 +234,10 @@ img {
   margin-bottom: 24px;
 }
 
+.blessings-description {
+  margin-bottom: 24px;
+}
+
 .blessings-img-container {
   display: flex;
   align-items: center;
